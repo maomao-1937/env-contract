@@ -1,0 +1,49 @@
+[
+  {
+    "args": [
+      "env_contract.py",
+      "--help"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "env_contract.py",
+      "examples/clean",
+      "--example",
+      "examples/clean/.env.example",
+      "--format",
+      "json"
+    ],
+    "exit": 0
+  },
+  {
+    "args": [
+      "env_contract.py",
+      "examples/drift",
+      "--example",
+      "examples/drift/.env.example"
+    ],
+    "exit": 1
+  },
+  {
+    "args": [
+      "env_contract.py",
+      "examples/dynamic",
+      "--example",
+      "examples/dynamic/.env.example",
+      "--format",
+      "json"
+    ],
+    "exit": 3
+  },
+  {
+    "args": [
+      "env_contract.py",
+      "examples/does-not-exist",
+      "--example",
+      "examples/clean/.env.example"
+    ],
+    "exit": 2
+  }
+]

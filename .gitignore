@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.local
+*.output.json
+*.output.jsonl
+.trace-scrub-*
